@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(223, 156, 223);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: italic;
+}
+
+.container{
+    background-color: white;
+    height: 330px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left{
+    margin: 10px;
+    /* border: solid red 1px; */
+    width: 350px;
+}
+
+label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.bill{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-block: 10px
+}
+
+input{
+    text-align: right;
+    
+    outline: none;
+    background-color:rgb(250, 238, 238);
+    border: rgb(250, 238, 238);
+    width: 96%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.tipsTop ,
+.tipsBottom{
+    display: flex;
+    
+}
+.tipItems1 ,
+.tipItems2{
+    background-color: black;
+    color:white;
+    height: 25px;
+    text-align: center;
+    width: 70px;
+    padding: 3px;
+    margin: 10px 20px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom{
+    background-color: rgb(250, 238, 238);
+    color: black;
+}
+.people{
+    margin-left: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5px;
+}
+#pplNo{
+    margin-bottom:10px ;
+}
+.personIcon{
+    /* width: 18px; */
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.noPeople{
+    width: 84%;
+    font-size: large;
+}
+
+.right{
+        background-color: black;
+        color: white;
+        width:  350px;
+        margin: 10px;
+        border-radius: 15px;
+ }
+
+.rightTop{
+    
+    margin-block: 20px;
+    margin-inline: 10px;
+    margin-left: 20px;
+    width: 87%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    line-height: 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span ,
+.numbers{
+    color: rgb(132, 193, 132);
+}
+
+.reset{
+    background-color: rgb(67, 207, 67);
+    width: 90%;
+    height: 40px;
+    margin-inline: 20px ;
+    margin-top: 70px;
+    outline: none;
+     border-style:none ;
+}
+
+h1{
+    margin-left: 400px;
+}
